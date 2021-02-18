@@ -21,4 +21,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - In this app, we use typescript and styled-components as the base of development
 
+- we configured eslint and prettier to help keep code pattern.
+
 - we can build any app with this template, so enjoy the code.
