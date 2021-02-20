@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import React from 'react'
+import styled from 'styled-components';
 
 export const Container = styled.main`
   height: 100vh;
@@ -199,3 +200,6 @@ export const Content = styled.div`
     }
   }
 `
+const styles: React.FC = () => <></>
+
+export default styles;
