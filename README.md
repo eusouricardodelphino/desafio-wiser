@@ -1,5 +1,3 @@
-## Getting Started
-
 ## Começando
 
 Após baixar o projeto, digite os seguintes comandos no terminal
@@ -19,3 +17,10 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 - Styled Components
 - ESLint
 - Prettier
+
+## Atualizações esperadas nos próximos dias:
+
+- Integração com API através do axios.
+- Adição de Redux e Redux Saga.
+- Melhorias no código como separação de componentes.
+- Feedback caso o login de errado.
