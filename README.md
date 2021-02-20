@@ -1,6 +1,8 @@
 ## Getting Started
 
-First, run the development server:
+## Começando
+
+Após baixar o projeto, digite os seguintes comandos no terminal
 
 ```bash
 npm run dev
@@ -8,19 +10,12 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tecnologias usadas
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-- In this app, we use typescript and styled-components as the base of development
-
-- we configured eslint and prettier to help keep code pattern.
-
-- we can build any app with this template, so enjoy the code.
+- Next JS
+- React JS
+- Styled Components
+- ESLint
+- Prettier
