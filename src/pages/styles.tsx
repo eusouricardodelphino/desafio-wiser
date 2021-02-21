@@ -120,37 +120,6 @@ export const Content = styled.div`
       }
     }
 
-    div {
-      width: 100%;
-      border: 1px solid #383e71;
-      padding: 12px 10px;
-      border-radius: 5px;
-
-      input {
-        width: 100%;
-        border: none;
-        font-size: 12px;
-        background: transparent !important;
-        color: #989fdb;
-
-        &::placeholder {
-          color: #989fdb;
-        }
-
-        &:focus {
-          box-shadow: none;
-          outline: 0;
-        }
-      }
-
-      & + label {
-        margin-top: 20px;
-
-        @media(max-width: 578px) {
-          margin-top: 16px;
-        }
-      }
-    }
 
     button {
       margin-top: 24px;
