@@ -3,6 +3,7 @@ import { MdClear } from 'react-icons/md'
 import { useField } from '@unform/core'
 
 import { Container } from './styles'
+import Message from '../Message'
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string
@@ -21,15 +22,18 @@ const Input: React.FC<InputProps> = ({ name, ...rest }) => {
   }, [fieldName, registerField])
 
   return (
-    <Container isErrored={!!error}>
-      <input
-        defaultValue={defaultValue}
-        ref={inputRef}
-        {...rest}
-      />
+    <>
+      <Container isErrored={!!error}>
+        <input
+          defaultValue={defaultValue}
+          ref={inputRef}
+          {...rest}
+        />
 
-      { error && <MdClear size={16} color='#FF377F'/> }
-    </Container>
+        { error && <MdClear size={16} color='#FF377F'/> }
+      </Container>
+      { error && <Message title={error} />}
+    </>
   )
 }
 

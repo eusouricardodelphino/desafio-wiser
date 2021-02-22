@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components';
 
 export const Container = styled.main`
@@ -116,7 +115,7 @@ export const Content = styled.div`
       display: block;
 
       & + div {
-        margin-top: 8px;
+        margin-top: 16px;
       }
     }
 
@@ -169,6 +168,4 @@ export const Content = styled.div`
     }
   }
 `
-const styles: React.FC = () => <></>
-
-export default styles;
+export default { Container, Content, Background }
