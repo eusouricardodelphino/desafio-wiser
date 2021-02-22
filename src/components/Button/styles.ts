@@ -15,6 +15,7 @@ export const Container = styled.button`
         position: absolute;
         left: 50%;
         transform:translate(-50%, 0);
+        bottom: -24px;
         width: 168px;
         height: 48px;
         box-shadow: none;
