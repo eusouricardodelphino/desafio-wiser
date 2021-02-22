@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components';
 
 export const Container = styled.main`
@@ -168,4 +169,6 @@ export const Content = styled.div`
     }
   }
 `
-export default { Container, Content, Background }
+const styles: React.FC = () => <></>
+
+export default styles
