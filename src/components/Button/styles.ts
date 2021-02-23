@@ -12,7 +12,7 @@ export const Container = styled.button`
       font-size: 16px;
 
       @media(max-width: 578px) {
-        position: absolute;
+        position: relative;
         left: 50%;
         transform:translate(-50%, 0);
         bottom: -24px;
