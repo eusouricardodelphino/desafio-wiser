@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.button`
-      margin-top: 24px;
+      margin-top: 16px;
       width: 100%;
       color: #fff;
       padding: 15px;

@@ -36,11 +36,15 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 
+  & + p {
+    margin-left: 16px;
+  }
 
   ${(props) =>
     props.isErrored &&
     css`
       border-color: #FF377F;
+      margin-bottom: 16px;
     `}
 `
 export default { Container }
