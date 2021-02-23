@@ -46,6 +46,7 @@ export const Container = styled.div<ContainerProps>`
       border-color: #FF377F;
       margin-bottom: 16px;
     `}
+
 `
 export default { Container }
 

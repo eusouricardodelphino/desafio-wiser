@@ -14,8 +14,8 @@ export const Container = styled.button`
       @media(max-width: 578px) {
         position: relative;
         left: 50%;
-        transform:translate(-50%, 0);
-        bottom: -24px;
+        transform:translate(-50%, 50%);
+        bottom: -10px;
         width: 168px;
         height: 48px;
         box-shadow: none;
